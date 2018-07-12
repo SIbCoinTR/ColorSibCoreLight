@@ -1,7 +1,7 @@
 ## ColorSibCore Light 
 
 
-ColorSibCore light  is an open source colored coin wallet compatible for exchnage and basic level developer . It supports two modes: a command line interface, and a JSON/RPC server. The command line interface is suitable for managing a local wallet without going through any third-party service. The JSON/RPC interface is suitable for server-side implementations of colored coins and programmatic colored coins wallet management.
+ColorSibCore light  is an open source colored coin wallet compatible for exchange and basic level developer . It supports two modes: a command line interface, and a JSON/RPC server. The command line interface is suitable for managing a local wallet without going through any third-party service. The JSON/RPC interface is suitable for server-side implementations of colored coins and programmatic colored coins wallet management.
 ## Requirements
 
 The following items are required to run ColorSibCore in the default mode:
@@ -23,7 +23,7 @@ Clone the source code from GitHub:
 
 ## Configuration
 
-Make sure your have a SibCoin Core server running, with the following arguments: -adreessindex=1 txindex=1 -server=1. You may need to have a username and password configured in the configuration file for Sibcoin Core (Sibcoin.conf).
+Make sure you have a SibCoin Core server running, with the following arguments: -adreessindex=1 txindex=1 -server=1. You may need to have a username and password configured in the configuration file for Sibcoin Core (Sibcoin.conf).
 
 All the configuration for ColorSibCore is done though the config.ini file:
 
@@ -148,7 +148,7 @@ Optional arguments:
 |--|--|
 |`--help`| show this help message and exit|
 |`--metadata`| [METADATA] The metadata to embed in the transaction|
-|`--fees` |[FEES] The fess in satoshis for the transaction|
+|`--fees` |[FEES] The fees in ivan for the transaction|
 |`--mode`| [MODE] 'broadcast' (default) for signing and broadcasting the transaction, 'signed' for signing the transaction without broadcasting, 'unsigned' for getting the raw unsigned transaction without broadcasting|
 |`--txformat` |[TXFORMAT] Format of transactions if a transaction is returned ('raw' or 'json')|
 
@@ -172,7 +172,7 @@ Optional arguments:
 | Parameter | Description |
 |--|--|
 |`--help`| show this help message and exit|
-|`--fees`| [FEES] The fess in ivan for the transaction|
+|`--fees`| [FEES] The fees in ivan for the transaction|
 |`--mode`| [MODE] 'broadcast' (default) for signing and broadcasting the transaction, 'signed' for signing the transaction without broadcasting, 'unsigned' for getting the raw unsigned transaction without broadcasting|
 |`--txformat` |[TXFORMAT] Format of transactions if a transaction is returned ('raw' or 'json')
 
