@@ -33,7 +33,7 @@ All the configuration for ColorSibCore is done though the config.ini file:
     
     blockchain-provider=sibcoind
     
-    [sibcoind]
+    [bitcoind]
     
     # Replace username, password and port with the username, password and port for Sibcoin Core
     
