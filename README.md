@@ -18,7 +18,7 @@ Clone the source code from GitHub:
 
 **Update the requirements:** 
 
-    $ cd colorcore
+    $ cd ColorSibCoreLight
     $ pip3 install --upgrade -r requirements.txt
     $ pip3 install aiohttp
 
