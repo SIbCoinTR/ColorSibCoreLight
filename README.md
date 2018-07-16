@@ -19,7 +19,8 @@ Clone the source code from GitHub:
 **Update the requirements:** 
 
     $ cd colorcore
-    $ pip install --upgrade -r requirements.txt
+    $ pip3 install --upgrade -r requirements.txt
+    $ pip3 install aiohttp
 
 ## Configuration
 
@@ -33,7 +34,7 @@ All the configuration for ColorSibCore is done though the config.ini file:
     
     blockchain-provider=sibcoind
     
-    [bitcoind]
+    [sibcoind]
     
     # Replace username, password and port with the username, password and port for Sibcoin Core
     

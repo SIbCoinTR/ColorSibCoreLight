@@ -98,13 +98,13 @@ class Configuration():
                 return colorcore.providers.ChainApiProvider(base_url, api_key, api_secret, None, loop)
             else:
                 # Chain.com for querying transactions combined with Bitcoind for signing
-                rpc_url = self.parser['bitcoind']['rpcurl']
+                rpc_url = self.parser['sibcoind']['rpcurl']
                 fallback = colorcore.providers.BitcoinCoreProvider(rpc_url)
 
                 return colorcore.providers.ChainApiProvider(base_url, api_key, api_secret, fallback, loop)
         else:
             # Bitcoin Core provider
-            rpc_url = self.parser['bitcoind']['rpcurl']
+            rpc_url = self.parser['sibcoind']['rpcurl']
             return colorcore.providers.BitcoinCoreProvider(rpc_url)
 
 
